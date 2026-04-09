@@ -65,4 +65,5 @@ Key influential features include:
 
 ## Output
 
+- Generates `feature_importance_chart.png` as Feature Importance Chart
 - Generates `submission.csv` for Kaggle competition
