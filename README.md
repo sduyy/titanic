@@ -56,6 +56,8 @@ Key influential features include:
 - Pclass
 - FamilySize
 
+![Feature Importance](outputs/feature_importance_chart.png)
+
 ## Learnings
 
 - Importance of feature engineering in improving model performance  
@@ -63,7 +65,7 @@ Key influential features include:
 - Using cross-validation for robust evaluation  
 - Interpreting models using feature importance  
 
-## Output
+## Outputs
 
 - Generates `feature_importance_chart.png` as Feature Importance Chart
 - Generates `submission.csv` for Kaggle competition
