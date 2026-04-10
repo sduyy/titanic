@@ -96,7 +96,7 @@ submission = pd.DataFrame({
     "PassengerId": test["PassengerId"],
     "Survived": test_predictions.astype(int)
 })
-submission.to_csv("submission.csv", index=False)
+submission.to_csv("outputs/submission.csv", index=False)
 
 
 
@@ -112,5 +112,5 @@ plt.barh(feature_df['Feature'], feature_df['Importance'])
 plt.title("Feature Importance (Random Forest)")
 plt.xlabel("Importance")
 plt.tight_layout()
-plt.savefig("feature_importance_chart.png", dpi=300, bbox_inches='tight')
+plt.savefig("outputs/feature_importance_chart.png", dpi=300, bbox_inches='tight')
 plt.show()
