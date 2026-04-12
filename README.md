@@ -26,7 +26,7 @@ Build machine learning models to predict passenger survival on the Titanic datas
 
 Two models were implemented and compared:
 
-- **Logistic Regression** (with feature scaling)
+- **Logistic Regression**
 - **Random Forest Classifier**
 
 Evaluation was performed using **Stratified K-Fold Cross Validation (k=10)**.
